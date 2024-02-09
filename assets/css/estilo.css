@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+    --azul: rgb(4, 102, 141);
+    --dark: rgb(9, 48, 56);
+    --branco: #fff;
+    --preto: #000
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--azul);
+    font-family: sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+
+}
+
+.main-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    height: 180px;
+    margin: 50px 50px;
+    padding: 20px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#hours, #minutes, #seconds {
+    font-size: 50pt;
+    font-family: 'Inter','Sans-Serif';
+    color: rgb(101, 1, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    color: var(--branco);
+    height: 100%;
+    width: 100%;
+}
+
+.container-rodape {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato a{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 30pt;
+}
+.assinatura-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 16pt;
+    font-weight: 700;
+    color: var(--preto);
+    text-align: center;
+}
